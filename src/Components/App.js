@@ -13,7 +13,7 @@ export default class App extends React.Component {
     showInput: false,
     newText: '',
     tasks: [
-      '11111111111',
+      'FFFFFFFFFFFFF',
       'Найти мышку',
       '2222222222',
       'Полечить Серёжу',
