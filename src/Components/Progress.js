@@ -20,6 +20,7 @@ function Progress(props) {
       </ul>
       {visible && (
         <select className='select' onChange={onChangeProgress}>
+          <option></option>
           {props.readyArray.map((item, ind) => (
             <option key={ind}>{item}</option>
           ))}

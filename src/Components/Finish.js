@@ -20,6 +20,7 @@ function Finish(props) {
       </ul>
       {visible && (
         <select className='select' onChange={onChangeFinish}>
+          <option></option>
           {props.progress.map((item, ind) => (
             <option key={ind}>{item}</option>
           ))}

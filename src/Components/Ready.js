@@ -21,6 +21,7 @@ function Ready(props) {
       </ul>
       {visible && (
         <select className='select' onChange={onChangeSelect}>
+          <option></option>
           {props.tasks.map((item, ind) => (
             <option key={ind}>{item}</option>
           ))}
