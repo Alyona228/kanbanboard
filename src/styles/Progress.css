@@ -1,0 +1,4 @@
+.board__finish {
+  display: flex;
+  flex-direction: column;
+}

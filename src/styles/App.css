@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: #0079bf;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  margin: auto;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
