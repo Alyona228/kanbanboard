@@ -41,3 +41,18 @@
   border: none;
   margin: 15px 10px 50px 30px;
 }
+.menu {
+  height: 1226px;
+  width: 338px;
+  background-color: white;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.menu_text {
+  height: 249px;
+  width: 282px;
+  background-color: #0067a3;
+  margin: 10px 21px 35px 10px;
+}
