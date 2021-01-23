@@ -22,7 +22,7 @@ function Header(props) {
         <img src={arrow} alt='это аватар' className='header__arrow' />
       </button>
 
-      {!visable && (
+      {visable && (
         <div className='menu'>
           <div className='menu_text'></div>
           <div className='menu_text'></div>
