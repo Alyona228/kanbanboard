@@ -44,7 +44,8 @@
 .menu {
   height: 1226px;
   width: 338px;
-  background-color: white;
+  margin-top: 50px;
+  background-color: #0067a3;
   right: 50px;
   display: flex;
   flex-direction: column;
@@ -53,6 +54,12 @@
 .menu_text {
   height: 249px;
   width: 282px;
-  background-color: #0067a3;
+
   margin: 10px 21px 35px 10px;
+  background: #ebecf0;
+  border-radius: 10px;
+  flex-direction: column;
+  text-align: left;
+  padding: 12px 10px 10px 12px;
+  box-sizing: border-box;
 }
